@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<title>Untitled_Document</title>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<link rel="stylesheet" href="css/styles.css" />  
+	</head>
+	<body>
+		$0
+		<script src="js/functions.js"></script>
+	</body>
+</html>
+]]></content>
+	 <tabTrigger>html5</tabTrigger>
+	 <description>HTML Document Scaffold</description>
+</snippet>
