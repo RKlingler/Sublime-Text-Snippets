@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+# new_project.localhost (New_Project)
+<VirtualHost *:80>
+    ServerAdmin user@server
+    DocumentRoot "C:/www/new_project/htdocs/"
+    ServerName new_project.localhost
+    ServerAlias new_project.localhost
+    DirectoryIndex index.php index.html 
+    <Directory "C:/www/new_project/htdocs/">
+        Options Indexes FollowSymLinks Includes ExecCGI
+        Order allow,deny
+        Allow from all
+        AllowOverride All
+    </Directory>
+</VirtualHost>
+]]></content>
+	 <tabTrigger>vhost</tabTrigger>
+	 <description>VHost Configuration</description>
+</snippet>
+

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+var namespace = function() {
+	'use strict';
+	var method = function() {
+		$0
+	};
+};
+]]></content>
+	 <tabTrigger>namespace</tabTrigger>
+	 <description>Javascript namespace</description>
+</snippet>
